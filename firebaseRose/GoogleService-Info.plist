@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>704864950606-c5hcnlru6b7jrvh0d1ifg7hbtocbh5if.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.704864950606-c5hcnlru6b7jrvh0d1ifg7hbtocbh5if</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCWlbnrtoi5chPuai0D3X5FY3W7g12FGUE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>704864950606</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jo.firebaseRose</string>
+	<key>PROJECT_ID</key>
+	<string>thelittleprince-ee7d2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>thelittleprince-ee7d2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:704864950606:ios:68c66fc3fec97a22</string>
+	<key>DATABASE_URL</key>
+	<string>https://thelittleprince-ee7d2.firebaseio.com</string>
+</dict>
+</plist>
