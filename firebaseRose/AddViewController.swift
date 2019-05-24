@@ -66,18 +66,7 @@ class AddViewController: UIViewController, UIImagePickerControllerDelegate, UINa
         let inDes = inputDescription.text ?? ""
         
         
-        let db = Firestore.firestore()
-        
-        //存入資料
-        let data: [String: Any] = ["category": inCate,"name": inName,"description": inDes,"update": Date()]
-        var photoReference: DocumentReference?
-        photoReference = db.collection("plants").addDocument(data: data) { (error) in
-            guard error == nil else {
-                self.addIndicatorView.stopAnimating()
-                return
-            }
-            
-            
+            let db = Firestore.firestore()
             let storageReference = Storage.storage().reference()
             let fileReference = storageReference.child(UUID().uuidString + ".png")
             let image = self.photoButton.image(for: .normal)
@@ -102,13 +91,19 @@ class AddViewController: UIViewController, UIImagePickerControllerDelegate, UINa
                             self.addIndicatorView.stopAnimating()
                             return
                         }
-                        photoReference?.updateData(["imgurl": downloadURL.absoluteString]) //指定欄位儲存
+                        //存入資料
+                        let data: [String: Any] = ["category": inCate,"name": inName,"description": inDes,"update": Date(),"imgurl": downloadURL.absoluteString]
+                        db.collection("plants").addDocument(data: data) { (error) in
+                            guard error == nil else {
+                                self.addIndicatorView.stopAnimating()
+                                return
+                            }
                         self.navigationController?.popViewController(animated: true)
-                    })
+                    }
                 })
             }
-        }
-        
+        )
+      }
     }
     
     
