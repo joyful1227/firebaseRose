@@ -19,15 +19,11 @@ class ToViewPlantsViewController: UIViewController {
     @IBOutlet weak var toViewPageDescription: UILabel!
     @IBOutlet weak var toViewPageGrowdate: UILabel!
     
-    //var plants = [QueryDocumentSnapshot]()
     var plant : QueryDocumentSnapshot?
-    //var planttext: String?
-    //var plantt: [String: Any]
-    //var test: QueryDocumentSnapshot
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("plant",plant)
+        // print("plant",plant)
     }
     
     override func viewWillAppear(_ animated: Bool) {
