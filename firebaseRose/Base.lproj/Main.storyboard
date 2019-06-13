@@ -4,13 +4,12 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--The little prince-->
+        <!--The Little Prince-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="firebaseRose" customModuleProvider="target" sceneMemberID="viewController">
@@ -81,7 +80,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="The little prince" id="0nz-MR-Wu6">
+                    <navigationItem key="navigationItem" title="The Little Prince" id="0nz-MR-Wu6">
                         <barButtonItem key="backBarButtonItem" title=" " id="Dw9-cL-P4e"/>
                         <barButtonItem key="rightBarButtonItem" title="Add" image="add-2" style="plain" id="TKB-NM-gw0">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -216,7 +215,7 @@
                                 </constraints>
                             </view>
                             <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Urb-Rd-ILq" userLabel="bottomView">
-                                <rect key="frame" x="0.0" y="316" width="896" height="130"/>
+                                <rect key="frame" x="0.0" y="233" width="896" height="130"/>
                                 <color key="backgroundColor" red="0.94258779290000005" green="0.52374685200000004" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Urb-Rd-ILq" secondAttribute="height" multiplier="138:20" id="XBi-ft-j1Z"/>
@@ -259,7 +258,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fox2" translatesAutoresizingMaskIntoConstraints="NO" id="rXE-eJ-Ijq">
-                                <rect key="frame" x="657" y="244" width="200" height="99"/>
+                                <rect key="frame" x="841" y="244" width="16" height="16"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="prince" translatesAutoresizingMaskIntoConstraints="NO" id="RPk-FO-6hf">
                                 <rect key="frame" x="201" y="170" width="120" height="174"/>

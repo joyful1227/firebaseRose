@@ -1,0 +1,6 @@
+framework module Pods_firebaseRose {
+  umbrella header "Pods-firebaseRose-umbrella.h"
+
+  export *
+  module * { export * }
+}
