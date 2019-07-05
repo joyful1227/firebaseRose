@@ -226,18 +226,27 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YdP-ij-t85" id="49D-g2-ORJ"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZD7-mM-1wh" userLabel="nameTF">
                                 <rect key="frame" x="344" y="110" width="498" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YdP-ij-t85" id="xSF-Uk-C0r"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FI7-gU-hr4" userLabel="desTF">
                                 <rect key="frame" x="344" y="170" width="498" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="YdP-ij-t85" id="V0T-mx-adx"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="種類" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGT-xp-Vc0">
                                 <rect key="frame" x="281" y="50" width="41" height="24"/>
@@ -258,7 +267,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fox2" translatesAutoresizingMaskIntoConstraints="NO" id="rXE-eJ-Ijq">
-                                <rect key="frame" x="841" y="244" width="16" height="16"/>
+                                <rect key="frame" x="736" y="244" width="16" height="16"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="prince" translatesAutoresizingMaskIntoConstraints="NO" id="RPk-FO-6hf">
                                 <rect key="frame" x="201" y="170" width="120" height="174"/>
@@ -296,15 +305,22 @@
                                 <rect key="frame" x="429.5" y="244" width="37" height="37"/>
                                 <color key="color" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbi-3F-LNU">
+                                <rect key="frame" x="344" y="219" width="302" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.15032428411089027" blue="0.098259522067711824" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98199353089999997" blue="0.90263208786256688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="NGT-xp-Vc0" firstAttribute="top" secondItem="FtW-Ah-H9X" secondAttribute="bottom" constant="-30" id="1Ts-q2-7gl"/>
                             <constraint firstAttribute="trailing" secondItem="Urb-Rd-ILq" secondAttribute="trailing" id="5mC-Oe-adm"/>
-                            <constraint firstItem="rXE-eJ-Ijq" firstAttribute="trailing" secondItem="BQj-Qh-Mnb" secondAttribute="trailing" constant="5" id="5n4-Ea-pJl"/>
+                            <constraint firstItem="rXE-eJ-Ijq" firstAttribute="trailing" secondItem="BQj-Qh-Mnb" secondAttribute="trailing" constant="-100" id="5n4-Ea-pJl"/>
                             <constraint firstItem="FI7-gU-hr4" firstAttribute="top" secondItem="ZD7-mM-1wh" secondAttribute="bottom" constant="30" id="6Fg-Vd-Sp5"/>
                             <constraint firstItem="vbS-2Y-FiD" firstAttribute="leading" secondItem="RPk-FO-6hf" secondAttribute="trailing" constant="-40" id="7sz-pd-oo9"/>
                             <constraint firstItem="ZD7-mM-1wh" firstAttribute="leading" secondItem="hbP-Vs-YEL" secondAttribute="trailing" constant="22" id="AVm-dC-Ksl"/>
+                            <constraint firstItem="gbi-3F-LNU" firstAttribute="top" secondItem="FI7-gU-hr4" secondAttribute="bottom" constant="19" id="C3E-CH-gWR"/>
                             <constraint firstItem="Urb-Rd-ILq" firstAttribute="top" secondItem="rXE-eJ-Ijq" secondAttribute="bottom" constant="-27" id="DL7-w0-xHT"/>
                             <constraint firstItem="Jsf-G1-WO8" firstAttribute="leading" secondItem="hvl-XI-Yra" secondAttribute="leading" id="DZE-NA-wLb"/>
                             <constraint firstItem="ZD7-mM-1wh" firstAttribute="top" secondItem="FtW-Ah-H9X" secondAttribute="bottom" constant="30" id="GIX-Ou-hUF"/>
@@ -316,6 +332,7 @@
                             <constraint firstItem="SVc-Ft-lRs" firstAttribute="centerX" secondItem="Jsf-G1-WO8" secondAttribute="centerX" id="UQv-Ii-Xwb"/>
                             <constraint firstItem="FtW-Ah-H9X" firstAttribute="top" secondItem="hvl-XI-Yra" secondAttribute="top" constant="50" id="UdZ-nG-b1L"/>
                             <constraint firstItem="Zka-6P-uO5" firstAttribute="centerX" secondItem="hvl-XI-Yra" secondAttribute="centerX" id="WTQ-8I-4yc"/>
+                            <constraint firstItem="gbi-3F-LNU" firstAttribute="leading" secondItem="FI7-gU-hr4" secondAttribute="leading" id="b7V-tb-2oB"/>
                             <constraint firstItem="BQj-Qh-Mnb" firstAttribute="trailing" secondItem="FI7-gU-hr4" secondAttribute="trailing" constant="10" id="eZd-cB-MlS"/>
                             <constraint firstItem="rXE-eJ-Ijq" firstAttribute="top" secondItem="Slk-Pc-tB8" secondAttribute="bottom" constant="-25" id="fPY-ES-ae4"/>
                             <constraint firstItem="Slk-Pc-tB8" firstAttribute="leading" secondItem="BQj-Qh-Mnb" secondAttribute="trailing" constant="-65" id="iCH-Rb-zHx"/>
@@ -338,11 +355,12 @@
                         <outlet property="inputDescription" destination="FI7-gU-hr4" id="Jmp-SK-3OW"/>
                         <outlet property="inputName" destination="ZD7-mM-1wh" id="RWE-Gp-8iR"/>
                         <outlet property="photoButton" destination="SVc-Ft-lRs" id="6Hs-eB-aRp"/>
+                        <outlet property="suggestionLabel" destination="gbi-3F-LNU" id="udT-se-5lY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xgc-vA-LH6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1858" y="-293"/>
+            <point key="canvasLocation" x="1857.5892857142856" y="-294.20289855072468"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pG7-uC-uci">
@@ -367,10 +385,10 @@
         <image name="ADD" width="100" height="100"/>
         <image name="add-2" width="350" height="350"/>
         <image name="can" width="175" height="237"/>
-        <image name="det" width="1080" height="648"/>
-        <image name="fox2" width="200" height="99"/>
-        <image name="prbk" width="415.5" height="236.5"/>
-        <image name="prince" width="284" height="386"/>
+        <image name="det" width="360" height="216"/>
+        <image name="fox2" width="73.5" height="93.5"/>
+        <image name="prbk" width="1118" height="637"/>
+        <image name="prince" width="273" height="367"/>
         <image name="rose-2" width="256" height="256"/>
     </resources>
     <color key="tintColor" red="0.94258779290000005" green="0.52374685200000004" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

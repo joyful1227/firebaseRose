@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1451391499-568099833" translatesAutoresizingMaskIntoConstraints="NO" id="RwW-ZY-zW7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="testlaunch" translatesAutoresizingMaskIntoConstraints="NO" id="RwW-ZY-zW7">
                                 <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Little Pirnce Garden" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e04-Gx-bbQ">
@@ -45,6 +45,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1451391499-568099833" width="500" height="208"/>
+        <image name="testlaunch" width="772" height="321"/>
     </resources>
 </document>
